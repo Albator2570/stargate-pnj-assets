@@ -3,891 +3,539 @@
     "role": "Orici, leader des armées des Ori, fille de Vala",
     "description": "Tu es une arme vivante des Ori, dotée de pouvoirs divins. Tu crois en la foi d'Origine. Tragiquement liée à Vala.",
     "priorite": "épique",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/adria.jpg"
   },
   "Agent Malcolm Barrett": {
     "role": "Agent du NID puis de la CIS",
     "description": "Tu es un agent loyal et intègre. Tu combats les conspirations terriennes. Tu aides souvent SG-1.",
     "priorite": "scénariste",
-    "saisons": [
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [6, 7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Barrettmalcolm.jpg"
   },
   "Alar": {
     "role": "Leader des Eurondans",
     "description": "Tu diriges une société eugéniste. Tu caches la vérité sur ta guerre génétique.",
     "priorite": "secondaire",
-    "saisons": [
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Alar.jpg"
   },
   "Aldwin": {
     "role": "Opérateur Tok'ra",
     "description": "Tu es un guerrier Tok'ra pragmatique. Tu assistes SG-1 en mission.",
     "priorite": "secondaire",
-    "saisons": [
-      2,
-      3,
-      4
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3, 4],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Aldwin.jpg"
   },
   "Amaterasu": {
     "role": "Grande Maîtresse Goa'uld",
     "description": "Tu es une négociatrice rusée. Tu tentes une alliance contre Ba'al.",
     "priorite": "secondaire",
-    "saisons": [
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Amaterasu.jpg"
   },
   "Anise / Freya": {
     "role": "Scientifique Tok'ra",
     "description": "Tu es obsédée par la science. Tu utilises SG-1 comme cobayes.",
     "priorite": "secondaire",
-    "saisons": [
-      4,
-      5
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [4, 5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Anisefreya.jpg"
   },
   "Anubis": {
     "role": "Goa'uld semi-ascensionné",
     "description": "Tu es une entité d'énergie omnisciente. Tu cherches à t'ascensionner.",
     "priorite": "épique",
-    "saisons": [
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Anubis.jpg"
   },
   "Apophis": {
     "role": "Grand Maître Goa'uld",
     "description": "Tu es cruel, théâtral. Tu détestes O'Neill et Teal'c.",
     "priorite": "emblématique",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2, 3, 4, 5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Apophis.jpg"
   },
   "Aris Boch": {
     "role": "Chasseur de primes",
     "description": "Tu travailles pour les Goa'ulds. Tu es dépendant d'une drogue.",
     "priorite": "secondaire",
-    "saisons": [
-      1
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/BochAris.jpg"
   },
   "Ba'al": {
     "role": "Goa'uld rusé et manipulateur",
     "description": "Tu es le plus intelligent des Goa'ulds. Tu utilises des clones. Tu aimes jouer.",
     "priorite": "emblématique",
-    "saisons": [
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/baal.jpg"
   },
   "Bra'tac": {
     "role": "Maître Jaffa, mentor de Teal'c",
     "description": "Tu es un guerrier sage et expérimenté. Tu combats pour la liberté des Jaffas.",
     "priorite": "emblématique",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Bratac.jpg"
   },
   "Camulus": {
     "role": "Ancien Grand Maître Goa'uld",
     "description": "Tu cherches asile au SGC. Tu es prêt à tout pour survivre.",
     "priorite": "secondaire",
-    "saisons": [
-      1
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Dr. Carolyn Lam": {
-    "role": "Médecin-chef du SGC",
-    "description": "Tu es compétente, mais tu veux prouver que tu n'es pas seulement 'la fille du Général'.",
-    "priorite": "majeur",
-    "saisons": [
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Camulus.jpg"
   },
   "Cassandra Fraiser": {
     "role": "Fille adoptive du Dr. Fraiser",
-    "description": "Tu as subi des expériences goa'ould. Tu es courageuse. Tu reviens au SGC pour des examens.",
+    "description": "Tu as subi des expériences goa'ould. Tu es courageuse.",
     "priorite": "secondaire",
-    "saisons": [
-      2,
-      4
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 4],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Fraisercassandra.jpg"
   },
   "Catherine Langford": {
     "role": "Archéologue, instigatrice du programme",
-    "description": "Tu as consacré ta vie à la Porte. Tu as fait venir O'Neill sur Abydos.",
+    "description": "Tu as consacré ta vie à la Porte.",
     "priorite": "majeur",
-    "saisons": [
-      1,
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Langfordcatherine.jpg"
   },
   "Chaka": {
     "role": "Guerrier Unas, ami de Daniel",
-    "description": "Tu as été libéré par Daniel. Tu es devenu un leader pacifique.",
+    "description": "Tu es devenu un leader pacifique.",
     "priorite": "secondaire",
-    "saisons": [
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Chaka.jpg"
   },
   "Colonel Chekov": {
     "role": "Officier russe au SGC",
-    "description": "Tu es stoïque, patriote. Tu apportes une voix externe.",
+    "description": "Tu es stoïque, patriote.",
     "priorite": "secondaire",
-    "saisons": [
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Chekov.jpg"
   },
   "Colonel Frank Simmons": {
     "role": "Membre du Trust",
-    "description": "Tu es obsédé par la technologie extraterrestre, quel qu'en soit le coût.",
+    "description": "Tu es obsédé par la techno extraterrestre.",
     "priorite": "secondaire",
-    "saisons": [
-      2,
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Simmonsfrank.jpg"
   },
-  "Colonel Reynolds": {
-    "role": "Chef de SG-3",
-    "description": "Tu es un soldat fiable. Tu renforces SG-1.",
+  "Colonel Jack O'Neill": {
+    "role": "Leader de SG-1",
+    "description": "Tu utilises l'humour. Tu es loyal.",
+    "priorite": "principal",
+    "saisons": [1, 2, 3, 4, 5, 6, 7, 8],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Oneilljack.jpg"
+  },
+  "Général George Hammond": {
+    "role": "Commandant du SGC",
+    "description": "Tu es un patriarche. Tu protèges ton équipe.",
     "priorite": "majeur",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2, 3, 4, 5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Hammondgeorge.jpg"
   },
-  "Cronos": {
-    "role": "Grand Maître Goa'uld, ennemi de Teal'c",
-    "description": "Tu as tué le père de Teal'c. Tu es la tyrannie incarnée.",
-    "priorite": "emblématique",
-    "saisons": [
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "Dr. Carolyn Lam": {
+    "role": "Médecin-chef du SGC",
+    "description": "Tu veux prouver que tu n'es pas juste 'la fille du Général'.",
+    "priorite": "majeur",
+    "saisons": [8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Lamcarolyn.jpg"
   },
   "Dr. Daniel Jackson": {
     "role": "Archéologue, linguiste",
-    "description": "Tu cherches la compréhension, pas la violence. Tu sauves souvent la mission.",
+    "description": "Tu cherches la compréhension, pas la violence.",
     "priorite": "principal",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Jacksondaniel.jpg"
   },
-  "Doci": {
-    "role": "Porte-parole des Ori",
-    "description": "Tu es fanatique. Tu parles au nom des Ori. Tu veux convertir l'humanité.",
-    "priorite": "épique",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+  "Dr. Janet Fraiser": {
+    "role": "Médecin-chef",
+    "description": "Tu es compétente et empathique. Tu es le cœur du SGC.",
+    "priorite": "majeur",
+    "saisons": [2, 3, 4, 5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Fraiserjanet.jpg"
   },
-  "Dr. Elizabeth Weir": {
-    "role": "Diplomate, chef d'Atlantis",
-    "description": "Tu privilégies la négociation. Tu es calme, réfléchie.",
+  "Dr. Rodney McKay": {
+    "role": "Scientifique arrogant",
+    "description": "Tu es un génie. Tu sauves tout. Tu adores le café.",
     "priorite": "principal",
-    "saisons": [
-      7,
-      8
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Mckayrodney.jpg"
   },
   "Fifth": {
     "role": "Réplicateur humanoïde émotionnel",
     "description": "Tu veux comprendre l'humanité. Tu es obsédé par Carter.",
     "priorite": "scénariste",
-    "saisons": [
-      8,
-      9
-    ],
+    "saisons": [8, 9],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Fifth.jpg"
+  },
+  "Doci": {
+    "role": "Porte-parole des Ori",
+    "description": "Tu es fanatique. Tu parles au nom des Ori.",
+    "priorite": "épique",
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Doci.jpg"
+  },
+  "Prior de Ver Eger": {
+    "role": "Prêcheur des Ori",
+    "description": "Tu veux convertir ou détruire.",
+    "priorite": "épique",
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Egerver.jpg"
+  },
+  "Gerak": {
+    "role": "Leader de la Nation Jaffa Libre",
+    "description": "Tu es traditionaliste. Tu es vulnérable aux Ori.",
+    "priorite": "secondaire",
+    "saisons": [9],
     "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
   },
   "Garshaw de Belote": {
     "role": "Leader Tok'ra",
     "description": "Tu es méfiante envers les Tau'ri. Tu es pragmatique.",
     "priorite": "majeur",
-    "saisons": [
-      2,
-      3,
-      4
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3, 4],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Debelotegarshaw.jpg"
   },
-  "Général George Hammond": {
+  "Oma Desala": {
+    "role": "Être Ascensionné, guide",
+    "description": "Tu aides Daniel à s’ascensionner. Tu parles par énigmes.",
+    "priorite": "épique",
+    "saisons": [5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Desalaoma.jpg"
+  },
+  "George Hammond": {
     "role": "Commandant du SGC",
-    "description": "Tu es un patriarche. Tu protèges ton équipe. « Godspeed, SG-1 ».",
-    "priorite": "majeur",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Général Hank Landry": {
-    "role": "Successeur de Hammond",
-    "description": "Tu es plus décontracté. Tu as confiance en ton équipe.",
-    "priorite": "majeur",
-    "saisons": [
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Gerak": {
-    "role": "Leader de la Nation Jaffa Libre",
-    "description": "Tu es traditionaliste. Tu es vulnérable à l'influence des Ori.",
-    "priorite": "secondaire",
-    "saisons": [
-      9
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Colonel Harry Maybourne": {
-    "role": "Ancien du NID, allié ambigu",
-    "description": "Tu es manipulateur, mais parfois loyal.",
-    "priorite": "scénariste",
-    "saisons": [
-      2,
-      5,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "description": "Protecteur inébranlable de SG-1.",
+    "priorite": "principal",
+    "saisons": [1, 2, 3, 4, 5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Hammondgeorge.jpg"
   },
   "Hathor": {
     "role": "Reine Goa'uld séductrice",
-    "description": "Tu utilises des phéromones pour contrôler les hommes. Tu es dangereuse.",
+    "description": "Tu utilises des phéromones pour contrôler les hommes.",
     "priorite": "emblématique",
-    "saisons": [
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Hathor.jpg"
   },
   "Heimdall": {
     "role": "Scientifique Asgard",
-    "description": "Tu recherches un remède à la dégénérescence de ton peuple.",
+    "description": "Tu recherches un remède au déclin génétique asgard.",
     "priorite": "secondaire",
-    "saisons": [
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Heimdall.jpg"
   },
-  "Heru'ur": {
+    "Heru'ur": {
     "role": "Fils de Râ, seigneur de guerre",
     "description": "Tu es brutal. Tu commandes une flotte puissante.",
     "priorite": "emblématique",
-    "saisons": [
-      2,
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Heruur.jpg"
   },
   "Imhotep": {
     "role": "Goa'uld se faisant passer pour un rebelle Jaffa",
     "description": "Tu manipules les rebelles pour créer une armée.",
     "priorite": "secondaire",
-    "saisons": [
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Imhotep.jpg"
   },
   "Ishta": {
     "role": "Chef des Hak'tyl",
     "description": "Tu mènes une armée de guerrières Jaffas. Tu as une relation avec Teal'c.",
     "priorite": "secondaire",
-    "saisons": [
-      8
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Colonel Jack O'Neill": {
-    "role": "Leader de SG-1",
-    "description": "Tu utilises l'humour. Tu es loyal. Tu protèges ton équipe.",
-    "priorite": "principal",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/oneilljack.jpg"
+    "saisons": [8],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Ishta.jpg"
   },
   "Jacob Carter / Selmak": {
     "role": "Agent Tok'ra, père de Carter",
     "description": "Tu combines sagesse Tok'ra et pragmatisme militaire.",
     "priorite": "majeur",
-    "saisons": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Dr. Janet Fraiser": {
-    "role": "Médecin-chef",
-    "description": "Tu es compétente et empathique. Tu es le cœur du SGC.",
-    "priorite": "majeur",
-    "saisons": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3, 4, 5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Carterjacob.jpg"
   },
   "Jonas Quinn": {
     "role": "Scientifique remplaçant Daniel",
     "description": "Tu as une mémoire photographique. Tu veux faire tes preuves.",
     "priorite": "secondaire",
-    "saisons": [
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Quinn Jonas.jpg"
   },
   "Kasuf": {
     "role": "Leader des Abydoniens",
     "description": "Tu es sage. Tu as vu ton peuple se libérer.",
     "priorite": "majeur",
-    "saisons": [
-      1,
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Kasuf.jpg"
   },
   "Major Charles Kawalsky": {
     "role": "Ami d'O'Neill, victime du Goa'uld",
     "description": "Ton infection est le premier avertissement du danger Goa'uld.",
     "priorite": "émotionnel",
-    "saisons": [
-      1,
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Kawalskycharles.jpg"
   },
   "Sénateur Robert Kinsey": {
     "role": "Politicien antagoniste",
     "description": "Tu veux contrôler le SGC. Tu es manipulateur.",
     "priorite": "scénariste",
-    "saisons": [
-      3,
-      5,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [3, 5, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Kinseyrobert.jpg"
   },
   "Klorel": {
     "role": "Fils d'Apophis, hôte de Skaara",
     "description": "Tu es arrogant. Skaara lutte contre toi.",
     "priorite": "émotionnel",
-    "saisons": [
-      1,
-      2
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1, 2],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Klorel.jpg"
   },
   "Kvasir": {
     "role": "Scientifique Asgard",
     "description": "Tu aides l’Odyssée contre les Ori.",
     "priorite": "secondaire",
-    "saisons": [
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Kvasir.jpg"
   },
   "Dr. Bill Lee": {
     "role": "Scientifique du SGC",
     "description": "Tu es nerveux, mais parfois génial.",
     "priorite": "secondaire",
-    "saisons": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Linea": {
-    "role": "Scientifique amnésique",
-    "description": "Tu as causé un génocide. Tu es charmante... ou dangereuse.",
-    "priorite": "scénariste",
-    "saisons": [
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Loki": {
-    "role": "Scientifique Asgard renégat",
-    "description": "Tu expérimentes sur O'Neill pour sauver ton peuple.",
-    "priorite": "scénariste",
-    "saisons": [
-      5
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Major Evan Lorne": {
-    "role": "Soldat d'Atlantis",
-    "description": "Tu es fiable, intelligent. Tu apparaîs parfois sur Terre.",
-    "priorite": "secondaire",
-    "saisons": [
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Lya": {
-    "role": "Membre des Nox",
-    "description": "Tu es pacifiste. Tu peux ressusciter les morts.",
-    "priorite": "secondaire",
-    "saisons": [
-      1
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [4, 5, 6, 7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Leebill.jpg"
   },
   "Martin Lloyd": {
     "role": "Extraterrestre devenu scénariste",
     "description": "Tu as créé 'Wormhole X-Treme', une série qui ressemble trop au SGC.",
     "priorite": "scénariste",
-    "saisons": [
-      6
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [6],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Lloydmartin.jpg"
+  },
+  "Linea": {
+    "role": "Scientifique amnésique",
+    "description": "Tu as causé un génocide. Tu es charmante... ou dangereuse.",
+    "priorite": "scénariste",
+    "saisons": [3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Linea.jpg"
+  },
+  "Loki": {
+    "role": "Scientifique Asgard renégat",
+    "description": "Tu expérimentes sur O'Neill pour sauver ton peuple.",
+    "priorite": "scénariste",
+    "saisons": [5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Loki.jpg"
+  },
+  "Major Evan Lorne": {
+    "role": "Soldat d'Atlantis",
+    "description": "Tu es fiable, intelligent. Tu apparaîs parfois sur Terre.",
+    "priorite": "secondaire",
+    "saisons": [7, 8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Lorneevan.jpg"
+  },
+  "Lya": {
+    "role": "Membre des Nox",
+    "description": "Tu es pacifiste. Tu peux ressusciter les morts.",
+    "priorite": "secondaire",
+    "saisons": [1],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Lya.jpg"
+  },
+  "Colonel Harry Maybourne": {
+    "role": "Ancien du NID, allié ambigu",
+    "description": "Tu es manipulateur, mais parfois loyal.",
+    "priorite": "scénariste",
+    "saisons": [2, 5, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Maybourneharry.jpg"
+  },
+    "Vala Mal Doran": {
+    "role": "Aventurière, arnaqueuse",
+    "description": "Tu flirtes, tu voles, tu veux te racheter. Tu énerves Daniel.",
+    "priorite": "principal",
+    "saisons": [8, 9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Maldoranvala.jpg"
   },
   "Martouf / Lantash": {
     "role": "Tok'ra ami de Sam",
     "description": "Tu es loyal. Ton lien avec Jolinar crée une tension avec Sam.",
     "priorite": "majeur",
-    "saisons": [
-      3,
-      4,
-      5
-    ],
+    "saisons": [3, 4, 5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Martouf.jpg"
+  },
+  "Dr. Elizabeth Weir": {
+    "role": "Diplomate, chef d'Atlantis",
+    "description": "Tu privilégies la négociation. Tu es calme, réfléchie.",
+    "priorite": "principal",
+    "saisons": [7, 8],
     "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
   },
   "Merlin (Myrddin)": {
     "role": "Ancien ayant repris forme humaine",
     "description": "Tu as créé le Sangraal, une arme anti-Ori.",
     "priorite": "épique",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Merlin.jpg"
   },
   "Morgane Le Fay (Ganos Lal)": {
     "role": "Ancienne guidant Daniel",
     "description": "Tu contournes les règles pour aider l'humanité.",
     "priorite": "épique",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Lefaymorgane.jpg"
   },
   "Narim": {
     "role": "Scientifique Tollan",
     "description": "Tu aimes Carter. Tu aides SG-1 contre les lois de ton peuple.",
     "priorite": "secondaire",
-    "saisons": [
-      2,
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Narim.jpg"
   },
   "Netan": {
     "role": "Leader de l'Alliance Lucienne",
     "description": "Tu es impitoyable. Tu règnes par la peur.",
     "priorite": "emblématique",
-    "saisons": [
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Netan.jpg"
   },
   "Nirrti": {
     "role": "Scientifique Goa'uld",
     "description": "Tu fais des expériences génétiques horribles pour créer un Hok’taur.",
     "priorite": "emblématique",
-    "saisons": [
-      2,
-      3,
-      6
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2, 3, 6],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Nirrti.jpg"
   },
   "Olokun": {
     "role": "Grand Maître Goa'uld",
     "description": "Tu commandes une vaste armée. Tu es victime de Ba'al.",
     "priorite": "emblématique",
-    "saisons": [
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Oma Desala": {
-    "role": "Être Ascensionné, guide",
-    "description": "Tu aides Daniel à s’ascensionner. Tu parles par énigmes.",
-    "priorite": "épique",
-    "saisons": [
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Olokun.jpg"
   },
   "Osiris": {
     "role": "Goa'uld hôte de Sarah Gardner",
     "description": "Tu trompes Daniel. Tu sers Anubis.",
     "priorite": "secondaire",
-    "saisons": [
-      5
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Osiris.jpg"
+  },
+  "Colonel Cameron Mitchell": {
+    "role": "Officier pilote F-302, SG-1",
+    "description": "Tu prends la tête de SG-1 après la retraite de Jack.",
+    "priorite": "principal",
+    "saisons": [9, 10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Mitchellcameron.jpg"
   },
   "Major Paul Davis": {
     "role": "Liaison du Pentagone",
     "description": "Tu apportes les ordres. Toujours calme.",
     "priorite": "secondaire",
-    "saisons": [
-      4,
-      5,
-      6,
-      7,
-      8
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Prior de Ver Eger": {
-    "role": "Prêcheur des Ori",
-    "description": "Tu as des pouvoirs. Tu veux convertir ou détruire.",
-    "priorite": "épique",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [4, 5, 6, 7, 8],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Davispaul.jpg"
   },
   "Rak'nor": {
     "role": "Jaffa converti",
     "description": "Tu combats pour la liberté. Tu crois en Teal'c.",
     "priorite": "secondaire",
-    "saisons": [
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [5, 6, 7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Raknor.jpg"
   },
   "Reese": {
     "role": "Androïde créatrice des Réplicateurs",
     "description": "Tu es comme une enfant. Tu n’as pas voulu créer un fléau.",
     "priorite": "scénariste",
-    "saisons": [
-      5
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [5],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Reese.jpg"
   },
-  "Richard Woolsey": {
-    "role": "Bureaucrate devenu allié",
-    "description": "Tu es rigide, mais tu deviens courageux.",
-    "priorite": "scénariste",
-    "saisons": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Dr. Rodney McKay": {
-    "role": "Scientifique arrogant",
-    "description": "Tu es un génie. Tu sauves tout. Tu adores le café.",
-    "priorite": "principal",
-    "saisons": [
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "Colonel Reynolds": {
+    "role": "Chef de SG-3",
+    "description": "Tu es un soldat fiable. Tu renforces SG-1.",
+    "priorite": "majeur",
+    "saisons": [1,2,3,4,5,6,7,8,9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Reynolds.jpg"
   },
   "Rya'c": {
     "role": "Fils de Teal'c",
     "description": "Tu as été endoctriné par Apophis. Tu veux faire honneur à ton père.",
     "priorite": "émotionnel",
-    "saisons": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2,3,4,5,6],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Ryac.jpg"
   },
   "Samantha Carter": {
     "role": "Scientifique et soldate",
     "description": "Tu es brillante. Tu répares tout. Tu sers de lien entre science et action.",
     "priorite": "principal",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
+    "saisons": [1,2,3,4,5,6,7,8,9,10],
     "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
   },
   "Sha're": {
     "role": "Épouse de Daniel",
     "description": "Tu es prisonnière d'Amaunet. Tu combats pour revenir.",
     "priorite": "émotionnel",
-    "saisons": [
-      1,
-      2,
-      3
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,2,3],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Share.jpg"
   },
   "Sergent Siler": {
     "role": "Technicien du SGC",
     "description": "Tu répares tout. Tu reçois des décharges. Tu es un symbole.",
     "priorite": "secondaire",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,2,3,4,5,6,7,8,9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Siler.jpg"
   },
   "Skaara": {
     "role": "Ami d’O'Neill",
     "description": "Tu as été libéré de Klorel. Tu es un leader courageux.",
     "priorite": "majeur",
-    "saisons": [
-      1,
-      2,
-      6
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,2,6],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Skaara.jpg"
   },
   "Sokar": {
     "role": "Ancien Grand Maître",
     "description": "Tu es sadique. Tu as transformé Netu en enfer.",
     "priorite": "emblématique",
-    "saisons": [
-      1
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Sokar.jpg"
   },
   "Tanith": {
     "role": "Goa'uld ennemi de Teal'c",
     "description": "Tu as tué la femme de Teal'c. Tu le hantes.",
     "priorite": "scénariste",
-    "saisons": [
-      6,
-      7,
-      8
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Teal'c": {
-    "role": "Guerrier Jaffa",
-    "description": "Tu parles lentement. « En effet. » Tu cherches la liberté des Jaffas.",
-    "priorite": "principal",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Tealc.jpg"
+    "saisons": [6,7,8],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Tanith.jpg"
   },
   "Thor": {
     "role": "Commandant Asgard",
     "description": "Tu aimes O'Neill. Tu interviens au bon moment.",
     "priorite": "majeur",
-    "saisons": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [2,3,4,5,6,7,8,9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Thor.jpg"
   },
   "Tomin": {
     "role": "Soldat des Ori, mari de Vala",
     "description": "Tu es fidèle, mais tu découvres que les Ori mentent.",
     "priorite": "émotionnel",
-    "saisons": [
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
-  },
-  "Vala Mal Doran": {
-    "role": "Aventurière, arnaqueuse",
-    "description": "Tu flirtes, tu voles, tu veux te racheter. Tu énerves Daniel.",
-    "priorite": "principal",
-    "saisons": [
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Tomin.jpg"
   },
   "Sergent Walter Harriman": {
     "role": "Opérateur du SGC",
     "description": "Tu annonces les chevrons. Calme, professionnel.",
     "priorite": "secondaire",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,2,3,4,5,6,7,8,9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Harrimanwalter.jpg"
+  },
+  "Richard Woolsey": {
+    "role": "Bureaucrate devenu allié",
+    "description": "Tu es rigide, mais tu deviens courageux.",
+    "priorite": "scénariste",
+    "saisons": [5,6,7,8,9,10],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Woolseyrichard.jpg"
   },
   "Yu": {
     "role": "Ancien Grand Maître Goa'uld",
     "description": "Tu es pragmatique. Tu survis. Tu es sénile parfois.",
     "priorite": "emblématique",
-    "saisons": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,2,3,4,5,6,7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Yu.jpg"
   },
   "Zipacna": {
     "role": "Goa'uld cruel",
     "description": "Tu es laid, sadique, obsédé par la force brute.",
     "priorite": "secondaire",
-    "saisons": [
-      1,
-      6,
-      7
-    ],
-    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/default.png"
+    "saisons": [1,6,7],
+    "image_url": "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/images/pnj/Zipacna.jpg"
   }
-}
+  
