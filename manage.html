@@ -2,53 +2,109 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Gestion visuelle des PNJs - Stargate SG-1</title>
+  <title>📁 Gestion PNJ Stargate SG-1</title>
   <style>
-    body { font-family: sans-serif; max-width: 900px; margin: auto; padding: 2rem; }
-    h1 { text-align: center; }
-    .pnj { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; display: flex; align-items: center; }
-    .pnj img { max-width: 100px; max-height: 100px; margin-right: 1rem; border-radius: 5px; }
-    .pnj span { font-weight: bold; font-size: 1.1rem; }
-    .pnj button { margin-left: auto; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+      background: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      color: #052540;
+    }
+    .pnj {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+      background: #fff;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 3px #ddd;
+    }
+    .pnj img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+    .pnj-info {
+      flex-grow: 1;
+    }
+    .pnj-info h2 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .status {
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+    .ok { color: green; }
+    .ko { color: red; }
   </style>
 </head>
 <body>
-  <h1>👨‍🚀 Gestion des visuels PNJ - Stargate Commande</h1>
-  <div id="liste">Chargement des PNJ...</div>
+  <h1>Stargate SG-1 · Gestion des visuels PNJs</h1>
+  <p>📦 Source : <code>pnj.json</code> — hébergé sur GitHub CDN</p>
+  <div id="pnj-list">Chargement des données…</div>
 
   <script>
-    const repo = "Albator2570/stargate-pnj-assets";
-    const baseCDN = "https://cdn.jsdelivr.net/gh/" + repo + "/images/pnj/";
-    const pnjJsonUrl = "https://cdn.jsdelivr.net/gh/" + repo + "/pnj.json";
+    const GITHUB_USER = "Albator2570";
+    const REPO_NAME = "stargate-pnj-assets";
+    const pnjJSONPath = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}/pnj.json`;
+    const BASE_IMG = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}/`;
 
-    fetch(pnjJsonUrl)
-      .then(response => response.json())
+    fetch(pnjJSONPath)
+      .then(resp => resp.json())
       .then(data => {
-        const liste = document.getElementById("liste");
-        liste.innerHTML = "";
+        const container = document.getElementById("pnj-list");
+        container.innerHTML = "";
 
-        for (const [nom, infos] of Object.entries(data)) {
+        Object.entries(data).forEach(([nom, info]) => {
           const div = document.createElement("div");
-          div.classList.add("pnj");
+          div.className = "pnj";
 
-          const image = document.createElement("img");
-          image.src = infos.image_url && infos.image_url !== "default" ? infos.image_url : baseCDN + "default.png";
+          // Image
+          const img = document.createElement("img");
+          const url = info.image_url || BASE_IMG + "default.png";
 
-          const span = document.createElement("span");
-          span.innerText = nom;
+          img.src = url;
+          img.onerror = () => {
+            img.src = BASE_IMG + "default.png";
+          };
 
-          const status = document.createElement("p");
-          status.innerText = infos.image_url && infos.image_url !== "default" ? "✅ Image ok" : "🚫 Pas d’image";
+          img.title = nom;
 
-          div.appendChild(image);
-          div.appendChild(span);
-          div.appendChild(status);
-          liste.appendChild(div);
-        }
+          // Texte
+          const block = document.createElement("div");
+          block.className = "pnj-info";
+
+          const titre = document.createElement("h2");
+          titre.innerText = nom;
+
+          const msg = document.createElement("div");
+          msg.className = "status";
+
+          if (!url.includes("default.png")) {
+            msg.innerText = "✅ Image ok";
+            msg.classList.add("ok");
+          } else {
+            msg.innerText = "🚫 Pas d'image";
+            msg.classList.add("ko");
+          }
+
+          block.append(titre, msg);
+          div.append(img, block);
+          container.append(div);
+        });
       })
-      .catch(error => {
-        document.getElementById("liste").innerText = "Erreur de chargement de pnj.json 😥";
-        console.error(error);
+      .catch(err => {
+        document.getElementById("pnj-list").innerHTML = "💥 Erreur de chargement du fichier pnj.json";
+        console.error(err);
       });
   </script>
 </body>
