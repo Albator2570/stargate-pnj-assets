@@ -55,7 +55,7 @@
   <script>
     const GITHUB_USER = "Albator2570";
     const REPO_NAME = "stargate-pnj-assets";
-    const pnjJSONPath = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}/pnj.json`;
+    const pnjJSONPath = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}/pnj.json?nocache=${Date.now()}`;
     const BASE_IMG = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}/`;
 
     fetch(pnjJSONPath)
