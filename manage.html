@@ -2,85 +2,95 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Gestion PNJ Stargate</title>
+  <title>Gestion PNJ Stargate SG-1 – Visuels</title>
   <style>
     body {
       font-family: sans-serif;
+      background: #f5f5f5;
       padding: 2rem;
       max-width: 1000px;
       margin: auto;
-      background: #f9f9f9;
     }
-    h1 { text-align: center; color: #052540; }
+    h1 {
+      text-align: center;
+      color: #05375c;
+    }
     .pnj {
       display: flex;
       align-items: center;
-      background: white;
-      border-radius: 8px;
-      padding: 10px;
+      border: 1px solid #ddd;
+      background: #fff;
       margin-bottom: 10px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
-    img {
+    .pnj img {
       width: 100px;
       height: 100px;
       object-fit: cover;
-      border-radius: 8px;
       margin-right: 15px;
+      border-radius: 8px;
     }
-    .info {
+    .pnj-info {
       flex-grow: 1;
     }
-    .info h2 {
+    .pnj-info h2 {
       margin: 0;
+      font-size: 1.2rem;
     }
-    .status.ok { color: darkgreen; font-weight: bold; }
-    .status.ko { color: crimson; font-weight: bold; }
+    .status {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+    .ok {
+      color: green;
+    }
+    .ko {
+      color: crimson;
+    }
   </style>
 </head>
 <body>
-  <h1>📸 Gestion visuelle des PNJ – Stargate SG-1</h1>
-  <div id="pnj-list">Chargement…</div>
+
+  <h1>📖 Liste des PNJ Stargate SG-1 – Suivi visuel 📸</h1>
+  <p>Les PNJ avec ✅ ont une image. Ceux avec 🚫 utilisent l’image par défaut.</p>
+
+  <div id="pnj-list">Chargement...</div>
 
   <script>
-    const repo = "Albator2570/stargate-pnj-assets";
-    const base = `https://cdn.jsdelivr.net/gh/${repo}/`;
-    const pnjUrl = `${base}pnj.json?nocache=${Date.now()}`;
-    const imgDefault = `${base}default.png`;
+    const IMAGE_BASE = "https://cdn.jsdelivr.net/gh/Albator2570/stargate-pnj-assets/";
+    const PNJ_JSON_URL = "https://raw.githubusercontent.com/Albator2570/stargate-pnj-assets/main/pnj.json";
 
-    fetch(pnjUrl)
-      .then(r => r.json())
-      .then(json => {
+    fetch(PNJ_JSON_URL)
+      .then(res => res.json())
+      .then(data => {
         const container = document.getElementById("pnj-list");
         container.innerHTML = "";
-        Object.entries(json).forEach(([nom, data]) => {
+
+        Object.entries(data).forEach(([name, infos]) => {
           const div = document.createElement("div");
           div.className = "pnj";
 
           const img = document.createElement("img");
-          img.src = data.image_url || imgDefault;
-          img.alt = nom;
+          const isCustom = infos.image_url && !infos.image_url.includes("default.png");
+          img.src = infos.image_url || IMAGE_BASE + "default.png";
+          img.alt = name;
           img.onerror = () => {
-            console.error(`❌ Image cassée pour ${nom} → ${img.src}`);
-            img.src = imgDefault;
+            img.src = IMAGE_BASE + "default.png";
           };
 
           const info = document.createElement("div");
-          info.className = "info";
+          info.className = "pnj-info";
 
-          const h2 = document.createElement("h2");
-          h2.innerText = nom;
+          const title = document.createElement("h2");
+          title.textContent = name;
 
           const stat = document.createElement("div");
-          if (!data.image_url || data.image_url.toLowerCase().includes("default")) {
-            stat.innerText = "🚫 Pas d’image";
-            stat.className = "status ko";
-          } else {
-            stat.innerText = "✅ Image OK";
-            stat.className = "status ok";
-          }
+          stat.className = `status ${isCustom ? "ok" : "ko"}`;
+          stat.textContent = isCustom ? "✅ Image OK" : "🚫 Pas d'image";
 
-          info.appendChild(h2);
+          info.appendChild(title);
           info.appendChild(stat);
           div.appendChild(img);
           div.appendChild(info);
@@ -88,9 +98,10 @@
         });
       })
       .catch(err => {
-        console.error("Erreur chargement pnj.json :", err);
-        document.getElementById("pnj-list").innerText = "⚠️ Erreur de chargement du fichier.";
+        console.error("Erreur de chargement de pnj.json :", err);
+        document.getElementById("pnj-list").innerText = "⚠️ Erreur lors du chargement de pnj.json";
       });
   </script>
+
 </body>
 </html>
